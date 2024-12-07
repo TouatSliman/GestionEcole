@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.nav form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+}
+.nav input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 3px;
+}
+.buttonGreen:hover,
+.buttonRed:hover,
+.buttonOrange:hover {
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.buttonGreen:hover {
+  background-color: rgb(40, 224, 40) !important;
+}
+.buttonRed:hover {
+  background-color: rgb(224, 40, 40) !important;
+}
+.buttonOrange:hover {
+  background-color: rgb(224, 160, 40) !important;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}

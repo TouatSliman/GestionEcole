@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+#login,
+#register {
+  background-color: rgb(255, 81, 0);
+  color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+#login h2,
+#register h2 {
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+#login label,
+#register label {
+  display: inline-flex;
+  width: 100px;
+  margin-bottom: 15px;
+}
+#login input,
+#register input,
+#login select,
+#register select {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+#login .button,
+#register .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login p,
+#register p {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+#login input[type="checkbox"],
+#register input[type="checkbox"] {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: -20px;
+}
+a {
+  text-decoration: underline;
+  color: #4484fc;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
