@@ -51,3 +51,53 @@
   color: #333;
   font-weight: bold;
 }
+.active {
+  right: 0 !important;
+  display: flex;
+  transition: right 0.3s ease-in;
+}
+@media only screen and (max-width: 1024px) {
+  .nav form{
+    width: 90%;
+  }
+  .nav .buttonMenu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .nav ul {
+    position: absolute;
+    top: 0;
+    right: -50% ;
+    background-color: #00000080;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 80px 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 45%;
+    height: 110%;
+    transition: right 0.3s ease-out;
+    display: none;
+  }
+  .nav li {
+    margin-right: 0;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  .nav a {
+    color: white;
+  }
+}

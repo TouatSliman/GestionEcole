@@ -122,3 +122,25 @@ section select {
   background-color: rgb(206, 60, 15);
   color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+  /*get the seccond form*/
+  .container
+   {
+    max-width: 230px !important;
+  }
+  label {
+    flex-direction: column;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  section img{
+    width: 80px;
+    height: 80px;
+  }
+  input{
+    width: 120px;
+  }
+
+}
